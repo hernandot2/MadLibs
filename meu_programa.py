@@ -43,3 +43,12 @@ age = int(input("How old are you: "))
 
 x = sal > 2*sal_min and age > 18 
 print("O resultado foi", x)
+
+
+
+# Interpolacao
+valor_unitario = 165.78
+quantidade = 5 
+valor_total = valor_unitario * quantidade 
+frase = "O produto custa %f. Eu comprei %d. Paguei ao todo %f" % ( valor_unitario, quantidade, valor_total)
+print(frase)
