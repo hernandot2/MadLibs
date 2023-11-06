@@ -1,74 +1,67 @@
+# Interpolation
+unit_price = 165.78
+quantity = 5 
+total_price = unit_price * quantity 
+phrase = "The product costs %f. I bought %d. I paid in total %f" % (unit_price, quantity, total_price)
+print(phrase)
 
+unit_price = 165.78
+quantity = 5 
+total_price = unit_price * quantity 
+phrase = f"The product costs {unit_price}. I bought {quantity}. I paid in total {unit_price * quantity}"
+print(phrase)
 
-# Interpolacao
-valor_unitario = 165.78
-quantidade = 5 
-valor_total = valor_unitario * quantidade 
-frase = "O produto custa %f. Eu comprei %d. Paguei ao todo %f" % ( valor_unitario, quantidade, valor_total)
-print(frase)
+# Create a program that has two variables named first_name and last_name.
+# Ask the user to input the first name and then ask to input the last name and store them in the variables separately.
+# Create a variable named full_name and store the concatenated first and last names.
+# At the end of the program print the phrase:
+# Your full name is: FIRSTNAME LASTNAME
+# Where FIRSTNAME and LASTNAME is the content of the full_name variable.
 
+first_name = input("First name: ")
+last_name =  input("Last name: ")
+full_name = first_name + " " + last_name
+phrase = f"Your full name is: {full_name}"
+print(phrase)
 
-valor_unitario = 165.78
-quantidade = 5 
-valor_total = valor_unitario * quantidade 
-frase = f"O produto custa {valor_unitario}. Eu comprei {quantidade}. Paguei ao todo {valor_unitario * quantidade}"
-print(frase)
+# Create a program that asks the user for a word and stores
+# this word in a variable named 'word'.
+# Then print the content of the variable 20 times using string multiplication.
+# Remember to put a space so the words don't print "stuck together".
 
+word = input("Enter a word: ")
+print((word + ' ') * 20)
 
-# Crie um programa que possua duas variáveis denominadas nome e sobrenome.
-# Solicite que o usuário informe o nome e depois solicite que informe o sobrenome e grave nas variáveis separadamente.
-# Crie uma variável denominada nome_completo e grave o nome e sobrenome concatenados.
-# No final do programa imprima a frase:
-# Seu nome completo é: NOME SOBRENOME
-# Onde NOME e SOBRENOME é o conteúdo da variável nome_completo.
+product_name = input('Enter the name of the product: ')
+price = float(input('Enter the price of the product: '))
+quantity = int(input('Enter the quantity of products: '))
 
+total = price * quantity
 
-nome = input("nome:")
-sobrenome =  input("sobrenome:")
-nome_completo = nome +" " +sobrenome
-frase = f"Seu nome completo é: {nome_completo}"
-print(frase)
+print('The product %s costs R$ %.2f, you bought %d and will pay R$ %.2f' % (product_name, price, quantity, total))
 
-
-# Crie um programa que solicite uma palavra ao usuário e armazene
-# esta palavra em uma variável denominada 'palavra'.
-# Em seguida imprima o conteúdo da variável 20 vezes usando a multiplicação de strings.
-# Lembre-se de colocar um espaço para não imprimir as palavras "coladas".
-
-palavra = input("Informe uma palavra: ")
-print((palavra + ' ') * 20)
-
-nome = input('Informe o nome do produto: ')
-preco = float(input('Informe o preço do produto: '))
-quantidade = int(input('Informe a quantidade de produtos: '))
-
-total = preco * quantidade
-
-print('O produto %s custa R$ %.2f, você comprou %d e vai pagar R$ %.2f' % (nome, preco, quantidade, total))
-
-
-# e strings - Aula 2
-# Aprendendo mais sobre strings
+# e strings - Lesson 2
+# Learning more about strings
 
 email = "evaldowolkers@gmail.com"
-indice_arroba = email.index ("@")
-usuario = email[0:indice_arroba]
-print ("O nome de usuário é:", usuario)
+at_index = email.index("@")
+username = email[0:at_index]
+print ("The username is:", username)
 
-# O nome do provedor 
+# The provider's name
 email = "evaldowolkers@gmail.com"
-indice_arroba = email.index ("@")
-indice_ponto = email.index(".")
-provedor = email[indice_arroba+1:indice_ponto]
-print ("O nome do provedor é:", provedor)
+at_index = email.index("@")
+dot_index = email.index(".")
+provider = email[at_index+1:dot_index]
+print ("The provider's name is:", provider)
 
-# outro exercicio 
-# Qual é o resultado do código a seguir caso o usuário informe o e-mail maria.silva@teste.com.br?
+# another exercise
+# What is the result of the following code if the user enters the email maria.silva@teste.com.br?
 
-email = input("Informe seu e-mail: ")
- 
+email = input("Enter your email: ")
+
 var1, var2 = email.split("@")
-# var1 = maria.silva , 
+# var1 = maria.silva, 
 # var2 = teste.com.br 
 var3, var4 = var1.split(".")
 # var3 = maria
