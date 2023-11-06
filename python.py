@@ -37,3 +37,27 @@ print(frase)
 
 palavra = input("Informe uma palavra: ")
 print((palavra + ' ') * 20)
+
+nome = input('Informe o nome do produto: ')
+preco = float(input('Informe o preço do produto: '))
+quantidade = int(input('Informe a quantidade de produtos: '))
+
+total = preco * quantidade
+
+print('O produto %s custa R$ %.2f, você comprou %d e vai pagar R$ %.2f' % (nome, preco, quantidade, total))
+O produto beer custa R$ 34.00, você comprou 2 e vai pagar R$ 68.00
+
+# e strings - Aula 2
+# Aprendendo mais sobre strings
+
+email = "evaldowolkers@gmail.com"
+indice_arroba = email.index ("@")
+usuario = email[0:indice_arroba]
+print ("O nome de usuário é:" usuario)
+
+# O nome do provedor 
+email = "evaldowolkers@gmail.com"
+indice_arroba = email.index ("@")
+indice_ponto = email.index(".")
+provedor = email[indice_arroba+1:indice_ponto]
+print ("O nome do provedor é:", provedor)
