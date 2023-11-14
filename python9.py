@@ -10,7 +10,7 @@ qtd_numeros = int(input(" Informe a qtd de numeros p/ somar:"))
 
 while x < qtd_numeros:
   x = x + 1
-  soma = soma + int(input(" Informe um num inteiro: "))
+  soma = soma + int(input(" Informe um numero inteiro: "))
 
 else:
    print(f"Soma:{soma}")
