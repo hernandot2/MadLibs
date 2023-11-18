@@ -7,29 +7,30 @@
 # erros: z”, onde “y” deverá ser o total de acertos e “z” o total de
 # erros.
 
-def main():
-    # Solicitar ao usuário um número para a tabuada
-    numero = int(input("Digite um número para treinar a tabuada: "))
+# Aqui esta pedindo o numero para tabuada. Depois de pedir o numero para calcular
+# a pessoa tem que responder essa tabuada escolhida de 1 a 10. 
+# Portanto tera que ter uma variavel numero e depois vai respondendo os numeros, se errar
+# a conta numero * n , aparecera mensagem de que errou e se acertou aparecera que acertou,
+# para isso tem q ter mais uma variavel para igualar no 'if ==' quando acerta e quando erra.
+# Ainda tem ter mais duas variaveis para contabilizar os acertos e erros. 
 
-    acertos = 0
-    erros = 0
+# phrase = f"O valor da compra eh: {valor_total:,.2f} "
+    # Solicitar ao usuario um numero para a tabuada
 
-    # Loop de 1 a 10 para a tabuada
-    for i in range(1, 11):
-        resposta_usuario = int(input(f"Qual é {numero} x {i}? "))
-        resposta_correta = numero * i
+numero = int(input("Digite um número para treinar a tabuada: "))
 
-        # Verificar se a resposta está correta
-        if resposta_usuario == resposta_correta:
-            print("Correto")
-            acertos += 1
-        else:
-            print(f"Que pena, você errou, o valor correto é {resposta_correta}")
-            erros += 1
+acertos = 0
+erros = 0
 
-    # Imprimir o total de acertos e erros
-    print(f"Total de acertos: {acertos}")
-    print(f"Total de erros: {erros}")
+for n in range(1, 11):
+    resposta = int(input(f"{numero} * {n}? "))
+    if resposta == (numero * n):
+        print("Resposta correta")
+        acertos += 1
+    else:
+        print(f"Que pena você errou, a resposta correta é {numero * n}")
+        erros += 1
 
-if __name__ == "__main__":
-    main()
+# Os prints finais devem estar fora do loop
+print(f"Total de acertos: {acertos}")
+print(f"Total de erros: {erros}")
