@@ -8,7 +8,6 @@ else:
     print("Acabou")
 
 
-
 for numero in range(10000):
     print(numero)
     if numero == 4:
