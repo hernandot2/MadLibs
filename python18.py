@@ -24,7 +24,7 @@ while True:
 
 
 
-def main():
+
     numbers = [] # Lista numbers Dentro da função main(), primeiro criamos uma lista vazia chamada numbers. Esta lista é usada para armazenar todos os números que o usuário digita.
     while True: # Loop while True Depois, temos um loop while True, que continua rodando até que seja interrompido por um break. Isso significa que ele vai continuar pedindo números ao usuário até que o usuário digite 0.
         try: # Bloco try-except Dentro do loop, temos um bloco try-except: try: Aqui, o programa tenta converter a entrada do usuário para um número decimal (float) e verifica se esse número é 0. Se for 0, o comando break interrompe o loop. Se não for 0, o número é adicionado à lista numbers.
@@ -56,7 +56,5 @@ def main():
     else:
         print("No numbers were entered.")
 
-if __name__ == "__main__":
-    main()
 
 
