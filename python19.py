@@ -13,7 +13,7 @@
 # print(lista_numeros)  # Resultado: [1, 2, 3, 4, 5, 6, 7]
 # print(lista_clonada)  # Resultado: [1, 2, 3, 4, 5, 6]
 
-lista_numeros = [ 1,2,3,4,5]
+lista_numeros = [1,2,3,4,5]
 lista_clonada = lista_numeros[:]
 
 lista_clonada += [6] # Resultado: [1, 2, 3, 4, 5, 6]
@@ -24,3 +24,7 @@ lista_numeros += [7]
 
 print(lista_numeros) # Resultado: [1, 2, 3, 4, 5, 6, 7]
 print(lista_clonada)
+
+print(lista_numeros) # Resultado: [1, 2, 3, 4, 5, 6, 7]
+print(lista_clonada)
+
