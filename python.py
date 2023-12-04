@@ -1,4 +1,8 @@
 # Interpolation
+
+print(" 10+25 eh:",10+25)
+
+
 unit_price = 165.78
 quantity = 5 
 total_price = unit_price * quantity 
