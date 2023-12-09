@@ -10,7 +10,7 @@ phrase = "The product costs %f. I bought %d. I paid in total %f" % (unit_price, 
 print(phrase)
 
 unit_price = 165.78
-quantity = 6 
+quantity = 5 
 total_price = unit_price * quantity 
 phrase = f"The product costs {unit_price}. I bought {quantity}. I paid in total {unit_price * quantity}"
 print(phrase)
