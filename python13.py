@@ -1,5 +1,5 @@
 # medium
-notas = [ 7.5, 7.7, 7.8]
+notas = [7.5, 7.7, 7.8]
 media = (notas[0]+ notas[1]+ notas[2])/3
 print(media)
 
@@ -11,3 +11,6 @@ notas = [ 7.6, 7.7 , 7.8 ]
 media = (notas[0]+ notas[1] + notas[2])/3
 print(media)
 
+notas = [ 8.6, 8.7 , 8.8 ]
+media = (notas[0]+ notas[1] + notas[2])/3
+print(media)
