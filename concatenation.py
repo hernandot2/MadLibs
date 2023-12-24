@@ -30,3 +30,7 @@ print(frase)
 
 frase = " ola, eu vou viajar de {0}" .format('busao', 'bicicleta', 'carro')
 print(frase)
+
+nome =" Messi"
+frase = f" o nome dele eh {nome}"
+print(frase)
