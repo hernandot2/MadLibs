@@ -28,9 +28,13 @@ frase = " o jogador {} tem {} anos e {} filhos." .format( nome, idade, filhos)
 print(frase) 
 
 
-frase = " ola, eu vou viajar de {0}" .format('busao', 'bicicleta', 'carro')
-print(frase)
+# frase = " ola, eu vou viajar de {0}" .format('busao', 'bicicleta', 'carro')
+# print(frase)
 
-nome =" Messi"
-frase = f" o nome dele eh {nome}"
-print(frase)
+# nome =" Messi"
+# frase = f" o nome dele eh {nome}"
+# print(frase)
+
+
+frase = " ola, eu vou viajar de {1}" .format("busao", "aviao")
+print|(frase)
