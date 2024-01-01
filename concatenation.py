@@ -10,11 +10,13 @@ multiplicacao = pao * 10
 print(multiplicacao)
 
 
-nome = "joao"
-idade = 9
-filhos = 2 
 
-frase = " o jogador %s tem %d anos e  tem %d filhos " %(nome, idade, filhos)
+
+nome = " john"
+idade = 9
+filhos = 2
+
+frase = " o jogador %s tem %d anos e tem %d filhos" %(nome, idade, filhos)
 print(frase)
 
 aula = 9
