@@ -1,8 +1,11 @@
+
+# Correção:
 texto1 = "ola"
 texto2 = " tudo bem?"
 
-soma_dos_textos = texto1 + texto2
+soma_dos_textos = texto1 + " " + texto2
 print(soma_dos_textos)
+
 
 
 pao = " paozinho"
@@ -40,3 +43,7 @@ print(frase)
 
 frase = " ola, eu vou viajar de {1}" .format("busao", "aviao")
 print|(frase)
+
+nome = "Messi"
+f"O nome dele eh {nome}"
+
