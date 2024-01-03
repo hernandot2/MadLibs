@@ -1,24 +1,36 @@
-Escreva um programa que solicite vários números ao usuário, sendo um de cada vez, possibilitando encerrar a entrada de dados informando zero. Adicione os números informados em uma lista e, ao final do programa, imprima a soma de todos os números, a multiplicação de todos os números, o maior e o menor número informado.
+# Escreva um programa que solicite vários números ao usuário, sendo um de cada vez, possibilitando encerrar a entrada de dados informando zero. Adicione os números informados em uma lista e, ao final do programa, imprima a soma de todos os números, a multiplicação de todos os números, o maior e o menor número informado.
 
-Exemplo de execução:
 
-Informe um número (zero para sair): 10
 
-Informe um número (zero para sair): 5
+# a = int(input("Informe o valor de 'a': "))
+# b = int(input("Informe o valor de 'b': "))
+# print(f"a é maior que b: {a>b}")
+# print(f"a é menor que b: {a<b}")
+# print(f"a é igual a b: {a==b}")
 
-Informe um número (zero para sair): 20
 
-Informe um número (zero para sair): 0
+
+
+
+# Exemplo de execução:
+
+# Informe um número (zero para sair): 10
+
+# Informe um número (zero para sair): 5
+
+# Informe um número (zero para sair): 20
+
+# Informe um número (zero para sair): 0
 
  
 
-Soma: 35
+# Soma: 35
 
-Multiplicação: 1000
+# Multiplicação: 1000
 
-Maior número: 20
+# Maior número: 20
 
-Menor número: 5
+# Menor número: 5
 
 
 
@@ -48,3 +60,11 @@ print(bancos)
 numeros = [1, 2, 3, 10, 12]
 numeros = numeros + [8, 7, 15]
 print(numeros)
+
+
+# insert
+
+banco = [ 1, 2, 3]
+banco.insert (0,5)
+print(banco)
+
