@@ -42,3 +42,9 @@ print(bancos)
 
 bancos[0] = "banco do japao"
 print(bancos)
+
+
+#Para incrementar o valor de uma lista podemos usar o operador de adição.
+numeros = [1, 2, 3, 10, 12]
+numeros = numeros + [8, 7, 15]
+print(numeros)
