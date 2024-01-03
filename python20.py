@@ -36,3 +36,9 @@ print(lista_numeros[1])
 notas = [7.5, 5.6, 9.5, 10.0]
 media = (notas[0] + notas[1] + notas[2] + notas[3])/4
 print(media)
+
+bancos = ["Banco do Brasil", "CEF", "Banestes"]
+print(bancos)
+
+bancos[0] = "banco do japao"
+print(bancos)
