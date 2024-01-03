@@ -1,0 +1,38 @@
+Escreva um programa que solicite vários números ao usuário, sendo um de cada vez, possibilitando encerrar a entrada de dados informando zero. Adicione os números informados em uma lista e, ao final do programa, imprima a soma de todos os números, a multiplicação de todos os números, o maior e o menor número informado.
+
+Exemplo de execução:
+
+Informe um número (zero para sair): 10
+
+Informe um número (zero para sair): 5
+
+Informe um número (zero para sair): 20
+
+Informe um número (zero para sair): 0
+
+ 
+
+Soma: 35
+
+Multiplicação: 1000
+
+Maior número: 20
+
+Menor número: 5
+
+
+
+
+#Estruturas de dados - Listas
+# Criando uma lista com 3 inteiros
+lista_numeros = [25, 78, 55]
+# Será impresso 78, os elemetos da lista iniciam com zero
+# 0=25, 1=78, 2=55
+# Na linha abaixo será impresso 78
+print(lista_numeros[1])
+
+
+# Acessando os elementos para calcular a média
+notas = [7.5, 5.6, 9.5, 10.0]
+media = (notas[0] + notas[1] + notas[2] + notas[3])/4
+print(media)
