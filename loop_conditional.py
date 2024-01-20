@@ -14,3 +14,14 @@ while True:
     break
   lista.append(numero)
 print(numero)
+
+
+# Outro codigo daqui pra baixo
+
+lista_numeros = [ 1,2,3,4,5]
+lista_clonada = lista_numeros[:]
+lista_clonada += [6]
+print(lista_numeros)
+print(lista_clonada)
+lista_numeros += [7]
+print(lista_numeros)
