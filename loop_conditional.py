@@ -14,6 +14,7 @@ while True:
     break
   lista.append(numero)
 print(numero)
+print(lista)
 
 
 # Outro codigo daqui pra baixo
